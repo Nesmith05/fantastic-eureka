@@ -1,0 +1,132 @@
+.is-parent {
+    width: 300px;
+    height: 200px;
+}
+
+#memory {
+    background: url("../images/memory-react-game-b.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#memory:hover {
+    background: url("../images//memory-react-game-a.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.5s;
+}
+
+#daytrippin {
+    background: url("../images/daytrippin-b.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#daytrippin:hover {
+    background: url("../images/daytrippin-a.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.5s;
+}
+
+#biteTracker {
+    height: 200px;
+    width: 200px;
+    background: url("../images/bitetracker-b.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#biteTracker:hover {
+    height: 200px;
+    width: 200px;
+    background: url("../images/BiteTracker-a.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.5s;
+}
+
+#guessing {
+    background: url("../images/worlds-greatest-b.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#guessing:hover {
+    background: url("../images/worlds-greatest-a.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.5s;
+}
+
+#schedule {
+    width: 200px;
+    height: 200px;
+    background: url("../images/galactic-railroad-b.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#schedule:hover {
+    width: 200px;
+    height: 200px;
+    background: url("../images/galactic-railroad-a.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.5s;
+}
+
+#crystal {
+    width: 200px;
+    height: 200px;
+    background: url("../images/CrystalCollector-b.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#crystal:hover {
+    width: 200px;
+    height: 200px;
+    background: url("../images/CrystalCollector-a.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.5s;
+}
+
+.is-child {
+    height: 200px;
+    width: 200px;
+}
+
+.portfolio-container {
+    margin-left: 100px;
+    padding-left: 50px;
+    /* margin-top: 520px; */
+}
+
+.code-links {
+    display: none;
+    margin-left: 5px;
+}
+
+.project-links {
+    display: none;
+    font-family: 'Raleway', sans-serif;
+}
+.is-parent:hover .code-links{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    /* color: rgb(153, 0, 255); */
+}
+
+.is-4:hover .project-links {
+    display: block;
+}

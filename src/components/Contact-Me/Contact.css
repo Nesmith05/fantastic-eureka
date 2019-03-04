@@ -1,0 +1,24 @@
+.contact-column {
+    padding-top: 50px;
+    /* margin-left: 300px; */
+    /* background-color: aquamarine; */
+    /* align-content: center; */
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.contact-icons {
+    font-size: 48px;
+
+}
+
+.id-column {
+    margin-left: 50px;
+}
+
+.is-mobile a {
+    margin-left: 20px;
+}
+

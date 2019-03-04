@@ -1,0 +1,37 @@
+#hero {
+    background-image: url("../images/astronomy-1867616_1920.jpg");
+    /* border-bottom-style: groove;
+    border-bottom-color: rgb(215, 197, 219); */
+}
+
+.title {
+    font-family: 'Poiret One', cursive;
+    background: -webkit-linear-gradient(rgb(15, 4, 65), rgb(138, 108, 177), rgb(168, 136, 211),  rgb(164, 134, 204),  rgb(181, 148, 224));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-shadow: white 10px; */
+    /* text-decoration:  rgb(178, 145, 221) underline; */
+    font-size: 45px;
+}
+
+#profile {
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+}
+
+.hero-body {
+    padding: 0;
+}
+
+#info p {
+    text-align: center;
+}
+
+#objective {
+    font-weight: 100px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}

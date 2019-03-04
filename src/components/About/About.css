@@ -1,0 +1,36 @@
+.title-1 {
+    font-family: 'Poiret One', cursive;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+.is-vcentered p {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: lighter;
+}
+
+.download-button {
+    align-self: center;
+    margin-top: 30px;
+}
+
+.download-button a {
+    font-family: 'Poiret One', cursive;
+    color: aliceblue;
+}
+
+.fa-download {
+    margin-right: 10px;
+}
+
+#about {
+    padding: 80px;
+    padding-bottom: 150px;
+    /* background-color: rgb(153, 0, 255); */
+    background-color: #bb99ff;
+
+}
