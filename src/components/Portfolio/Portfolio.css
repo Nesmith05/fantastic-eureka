@@ -20,14 +20,14 @@
 }
 
 #daytrippin {
-    background: url("../images/daytrippin-b.png");
+    background: url("../images/new-dt.PNG");
     height: 200px;
     width: 200px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #daytrippin:hover {
-    background: url("../images/daytrippin-a.png");
+    background: url("../images/new-dt-2.png");
     height: 200px;
     width: 200px;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 #biteTracker {
     height: 200px;
     width: 200px;
-    background: url("../images/bitetracker-b.png");
+    background: url("../images/new-bt.PNG");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -46,7 +46,7 @@
 #biteTracker:hover {
     height: 200px;
     width: 200px;
-    background: url("../images/BiteTracker-a.png");
+    background: url("../images/new-bt-2.png");
     background-repeat: no-repeat;
     background-size: cover;
     transition-duration: 0.5s;
@@ -111,22 +111,25 @@
     /* margin-top: 520px; */
 }
 
-.code-links {
+.code-links{
     display: none;
-    margin-left: 5px;
+
 }
 
 .project-links {
-    display: none;
-    font-family: 'Raleway', sans-serif;
+    margin-left: 5px;
+    margin-top: 25px;
 }
-.is-parent:hover .code-links{
+
+.is-parent a[target=_blank] {
+    display: none;
+}
+.is-parent:hover a {
     display: block;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 40px;
+    /* font-size: 15px; */
     /* color: rgb(153, 0, 255); */
 }
 
-.is-4:hover .project-links {
-    display: block;
-}

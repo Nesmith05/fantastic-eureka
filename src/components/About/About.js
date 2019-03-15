@@ -16,7 +16,7 @@ const About = props => (
         </div>
         
         <div className="download-button level-item">
-            <a className="button is-primary is-inverted is-outlined" href="#">
+            <a className="button is-primary is-inverted is-outlined" href="../images/Natasha-Smith_resume.doc" download>
                 <i class="fa fa-download"></i> 
                 Download Resume
             </a>

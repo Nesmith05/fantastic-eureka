@@ -5,7 +5,7 @@ const Contact = props => (
 
     <section className="section contact">
         <div className="container">
-            <h1 className="title">Call Me, Beep Me</h1>
+            <h1 className="title">Contact Me</h1>
             {/* <div className="columns contact-column"> */}
                 <div className="level is-mobile">
                     <div className="level-item" >
@@ -13,7 +13,7 @@ const Contact = props => (
                             <i class="fas fa-envelope  gradient-icon"></i>
                         </span>
                         <div id="email"> 
-                            <a href="#">E-mail</a>
+                            <span>Tasha.1004@gmail.com</span>
                         </div>
                     </div>
                     <div className="level-item">
@@ -21,7 +21,7 @@ const Contact = props => (
                             <i class="fab fa-github gradient-icon"></i>
                         </span>
                         <div> 
-                            <a href="https://github.com/Nesmith05">GitHub</a>
+                            <a href="https://github.com/Nesmith05"  target="_blank"  rel="noopener noreferrer">GitHub</a>
                         </div> 
                     </div>
                     <div className="level-item">
@@ -29,7 +29,7 @@ const Contact = props => (
                             <i class="fab fa-linkedin gradient-icon"></i>
                         </span>
                         <div> 
-                            <a href="#">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/natasha-smith-834a44156/"  target="_blank"  rel="noopener noreferrer">LinkedIn</a>
                         </div> 
                     </div>
                 </div>
